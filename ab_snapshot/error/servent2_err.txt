@@ -1,0 +1,34 @@
+Exception in thread "Thread-24" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-26" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-25" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-23" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+21:20:06 - Couldn't handle message: [0|0|4|TRANSACTION|1]
+21:20:06 - Couldn't handle message: [1|2|3|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|1|5|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|2|2|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|4|3|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|6|4|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|7|5|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|8|4|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|9|1|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [1|3|4|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|11|4|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [1|4|4|TRANSACTION|3]
+21:20:09 - Couldn't handle message: [3|0|1039|AB_TELL|4]
+21:20:10 - Couldn't handle message: [1|6|997|AB_TELL|4]
+21:20:11 - Couldn't handle message: [0|12|958|AB_TELL|4]
+21:20:22 - Couldn't handle message: [3|1|1039|AB_TELL|4]
+21:20:23 - Couldn't handle message: [1|7|997|AB_TELL|4]
+21:20:23 - Couldn't handle message: [0|13|958|AB_TELL|4]

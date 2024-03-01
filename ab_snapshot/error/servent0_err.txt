@@ -1,0 +1,40 @@
+21:20:04 - Couldn't handle message: [1|0|4|TRANSACTION|2]
+21:20:04 - Couldn't handle message: [1|1|5|TRANSACTION|2]
+Exception in thread "Thread-7" Exception in thread "Thread-9" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-8" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-11" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+21:20:05 - Couldn't handle message: [1|2|3|TRANSACTION|4]
+21:20:05 - Couldn't handle message: [1|3|4|TRANSACTION|3]
+21:20:05 - Couldn't handle message: [1|4|4|TRANSACTION|3]
+21:20:05 - Couldn't handle message: [1|5|2|TRANSACTION|2]
+21:20:07 - Couldn't handle message: [2|0|5|TRANSACTION|4]
+21:20:07 - Couldn't handle message: [2|1|5|TRANSACTION|1]
+21:20:07 - Couldn't handle message: [2|2|5|TRANSACTION|4]
+21:20:07 - Couldn't handle message: [2|3|1|TRANSACTION|3]
+21:20:07 - Couldn't handle message: [2|4|5|TRANSACTION|3]
+21:20:07 - Couldn't handle message: [2|5|1|TRANSACTION|3]
+21:20:07 - Couldn't handle message: [2|6|4|TRANSACTION|1]
+21:20:07 - Couldn't handle message: [2|7|4|TRANSACTION|1]
+21:20:07 - Couldn't handle message: [2|8|4|TRANSACTION|4]
+21:20:07 - Couldn't handle message: [2|9|2|TRANSACTION|1]
+21:20:07 - Couldn't handle message: [2|10|4|TRANSACTION|3]
+21:20:07 - Couldn't handle message: [2|11|2|TRANSACTION|3]
+21:20:09 - Couldn't handle message: [3|0|1039|AB_TELL|4]
+21:20:09 - Couldn't handle message: [1|6|997|AB_TELL|4]
+21:20:10 - Couldn't handle message: [2|12|979|AB_TELL|4]
+21:20:22 - Couldn't handle message: [1|7|997|AB_TELL|4]
+21:20:22 - Couldn't handle message: [3|1|1039|AB_TELL|4]
+21:20:22 - Couldn't handle message: [2|13|979|AB_TELL|4]

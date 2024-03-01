@@ -1,0 +1,4 @@
+17:37:08 - Couldn't send message: [1|2|5|TRANSACTION|3]
+17:37:08 - Couldn't send message: [1|13|5|TRANSACTION|5]
+17:37:08 - Couldn't send message: [1|9|4|TRANSACTION|6]
+17:37:13 - Couldn't send message: [3|0|1024|AB_TELL_AMOUNT|4]

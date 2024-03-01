@@ -1,0 +1,45 @@
+Exception in thread "Thread-5" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-6" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:40)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-3" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-7" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Exception in thread "Thread-4" java.lang.IllegalArgumentException: Trying to get info for servent 5 when there are 5 servents.
+	at app.AppConfig.getInfoById(AppConfig.java:185)
+	at cli.command.TransactionBurstCommand$TransactionBurstWorker.run(TransactionBurstCommand.java:36)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+21:20:05 - Couldn't handle message: [0|1|5|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|2|2|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|3|2|TRANSACTION|2]
+21:20:06 - Couldn't handle message: [0|4|3|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|5|4|TRANSACTION|2]
+21:20:06 - Couldn't handle message: [0|6|4|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|7|5|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|8|4|TRANSACTION|3]
+21:20:06 - Couldn't handle message: [0|9|1|TRANSACTION|4]
+21:20:06 - Couldn't handle message: [0|10|4|TRANSACTION|2]
+21:20:06 - Couldn't handle message: [0|11|4|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [2|0|5|TRANSACTION|4]
+21:20:08 - Couldn't handle message: [2|2|5|TRANSACTION|4]
+21:20:08 - Couldn't handle message: [2|3|1|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [2|4|5|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [2|5|1|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [2|8|4|TRANSACTION|4]
+21:20:08 - Couldn't handle message: [2|10|4|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [2|11|2|TRANSACTION|3]
+21:20:08 - Couldn't handle message: [3|0|1039|AB_TELL|4]
+21:20:10 - Couldn't handle message: [0|12|958|AB_TELL|4]
+21:20:10 - Couldn't handle message: [2|12|979|AB_TELL|4]
+21:20:21 - Couldn't handle message: [3|1|1039|AB_TELL|4]
+21:20:23 - Couldn't handle message: [0|13|958|AB_TELL|4]
+21:20:24 - Couldn't handle message: [2|13|979|AB_TELL|4]
